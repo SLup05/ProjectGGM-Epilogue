@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6580809276346094274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5120778025663103878}
+  - component: {fileID: 811398005651934148}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5120778025663103878
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6580809276346094274}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.1688564, y: -1.5329044, z: 124.82496}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &811398005651934148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6580809276346094274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f7da5178663b0b40a4984db59f435fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerpoolManager: {fileID: 0}
+  enemIntPool: {fileID: 0}
+  enemIntNumBulletPool: {fileID: 0}
+  enemFloatLeftBulletPool: {fileID: 0}
+  enemFloatRightBulletPool: {fileID: 0}
+  enemCharBulletPool: {fileID: 0}
+  playerEfctPoolManager: {fileID: 0}
+  playerMove: {fileID: 0}
+  SetStage: 2
+  NowClearBug: 0
+  ToClearWave: 0
+  NowClearWave: 0
+  Text_ToClearBug: {fileID: 0}
+  Text_NowWave: {fileID: 0}
+  IntSpawnLeft: 0
+  IntPrefab: {fileID: 4607090376109471538, guid: ec2ade1454698ae49a445b3e7e01b96f, type: 3}
+  FloatPrefab: {fileID: 4088897599129288143, guid: b8904acd44f1cf2448862211f87bb6d0, type: 3}
+  TranslatePrefab: {fileID: 4597581825841581962, guid: 5849b6dd6ed298542818958cbf426152, type: 3}
+  StringPrefab: {fileID: 6259997465342620865, guid: 4de2da8c29efb524693ea4ed30d5bcb2, type: 3}
